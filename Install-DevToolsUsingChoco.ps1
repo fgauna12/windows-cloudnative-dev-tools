@@ -34,7 +34,6 @@ function Install-DevToolsUsingChoco {
     choco install microsoft-edge -y
     choco install 1password -y -f -not-silent #known issue in installer
     choco install snagit -y --version 2020.1.2
-    choco install xmind -y
 
     # add slack
     choco install slack -y
