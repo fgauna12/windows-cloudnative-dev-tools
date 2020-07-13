@@ -3,6 +3,8 @@ function Install-DevToolsUsingChoco {
     choco install git -y
     choco install azure-cli -y
     choco install nodejs.install -y
+    choco install az.powershell -y
+    choco install awscli - y
 
     # Cloud-Native
     choco install docker-desktop -y
@@ -31,10 +33,19 @@ function Install-DevToolsUsingChoco {
     choco install googlechrome -y
     choco install microsoft-edge -y
     choco install 1password -y -f -not-silent #known issue in installer
-    
+    choco install snagit -y --version 2020.1.2
 
-    # Framwork
+    # add slack
+    choco install slack -y
+    # add zoom
+    choco install zoom -y
+    # google drive
+    choco install googledrive -y
+
+    # Framework
     choco install netfx-4.8-devpack -y
     choco install dotnetcore-sdk -y 
     choco install pwsh -y
+
+    
 }

@@ -36,4 +36,7 @@ Set-Theme Paradox
 "@
 notepad $profile
 
+# enable developer mode
+
+# configure a symlink for the powershell core profile to point to the profile on this repo
 
