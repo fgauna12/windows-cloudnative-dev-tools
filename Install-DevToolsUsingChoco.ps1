@@ -39,8 +39,8 @@ function Install-DevToolsUsingChoco {
     choco install slack -y
     # add zoom
     choco install zoom -y
-    # google drive
-    choco install googledrive -y
+    # google file stream
+    choco install google-drive-file-stream -y
 
     # Framework
     choco install netfx-4.8-devpack -y
