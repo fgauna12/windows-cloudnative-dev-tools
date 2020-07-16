@@ -4,7 +4,7 @@ function Install-DevToolsUsingChoco {
     choco install azure-cli -y
     choco install nodejs.install -y
     choco install az.powershell -y
-    choco install awscli - y
+    choco install awscli -y
 
     # Cloud-Native
     choco install docker-desktop -y
