@@ -46,6 +46,6 @@ function Install-DevToolsUsingChoco {
     choco install netfx-4.8-devpack -y
     choco install dotnetcore-sdk -y 
     choco install pwsh -y
-
+    choco install putty -y
     
 }
