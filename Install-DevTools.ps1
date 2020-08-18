@@ -18,25 +18,10 @@ Install-DevToolsUsingChoco
 
 Install-VsCodeExtensions
 
-write-host "restart computer"
-
-# enter powershell core
-pwsh
-
-# Set-up the terminal Manually - https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
+# Install the Cascadia fonts - https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 
-write-host "paste in the following to your pwsh profile"
-echo @"
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-Theme Paradox
-"@
-notepad $profile
-
-# enable developer mode
-
-# configure a symlink for the powershell core profile to point to the profile on this repo
+write-host "restart computer"
 

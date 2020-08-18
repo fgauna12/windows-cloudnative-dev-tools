@@ -15,6 +15,8 @@ function Install-DevToolsUsingChoco {
 
     # DevOps
     choco install terraform -y
+    choco install vagrant -y
+    choco install vagrant-vmware-utility -y
 
     # IDEs
     choco install sql-server-management-studio -y
@@ -39,8 +41,6 @@ function Install-DevToolsUsingChoco {
     choco install slack -y
     # add zoom
     choco install zoom -y
-    # google file stream
-    choco install google-drive-file-stream -y
 
     # Framework
     choco install netfx-4.8-devpack -y
